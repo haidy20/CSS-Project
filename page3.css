@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+body{
+    background-color: rgb(218, 210, 210);
+    height: 200%;
+    /*width: 70%;*/
+}
+ul li{
+    display: inline-block;   
+}
+
+.list{
+    
+    float: right;
+    padding-left: 90px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold; 
+    color: black;
+}
+a:hover{
+    color: plum;
+}
+tr td img:hover{
+background-color: gray;
+
+
+}
+ul li img{
+padding-left: 10px;
+}
+tr td{
+padding-left: 105px;
+padding-top: 50px;
+
+}
+tr td h4{
+    text-align: center;
+    padding-top: 12px;
+}
+.container{
+margin-top: 100px;
+background-color: rgb(194, 86, 194);
+color: rgb(89, 76, 76);
+height: 3%;
+
+}
+ div h4{
+    text-align: center;
+    padding-top: 5px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

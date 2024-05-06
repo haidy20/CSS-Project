@@ -1,0 +1,83 @@
+body{
+    background-image:url(Images/1.jpg) ;
+    width: 500px;
+    height:800px;
+    background-repeat:repeat;
+    background-attachment:fixed;
+}
+table{
+    background-color:#eedaf4;
+    width:290px ;
+    height:600px;
+    text-align:center;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 600px;
+    border-radius:10%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    position: fixed;
+
+}
+.name{
+    background-repeat: no-repeat;
+    background-image: url(Images/pers.png);
+    background-color: transparent;
+    background-position: center;
+    margin-top: 70px;
+    
+ }
+ input[type="text"] {
+    background-color: transparent;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid black;
+}
+input[type="email"]
+{
+    background-color: transparent;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid black;
+}
+.email{
+    background-repeat: no-repeat;
+    background-image: url(Images/mail.png);
+    background-color: transparent;
+    background-position: center;
+    margin-top: 70px;
+}
+
+input[type="password"] {
+    background-color: transparent;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    
+
+}
+.pass{
+    background-repeat: no-repeat;
+    background-image: url(Images/passs.png);
+    background-color: transparent;
+    background-position: center;
+    
+ }
+ b{
+    border: 1px solid lightgray;
+    border-radius:29px ;
+    padding: 9px;
+    padding-left:20px ;
+    padding-right: 15px;
+    background-color:rgb(210, 107, 210);
+ }
+ input[type="text"]:focus, input[type="email"]:focus, input[type=password]:focus,input[type=password]:focus{
+    border-bottom: 1px solid blue;
+ }
